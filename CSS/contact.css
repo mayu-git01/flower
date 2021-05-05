@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  font-family: serif;
+  color: #333333;
+  margin: 0;
+}
+.warapper{
+  /* display: flex; */
+  background-image: url(../image/veri-ivanova-whOkVvf0_hU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+}
+#logo{
+  /* border: 2px solid red; */
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 50px;
+  color: #BC8F8F;
+  font-style: italic;
+  font-size: 72px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo:hover{
+  text-shadow: 2px 2px 2px #ffe4e1;
+}
+.from{
+  width: 40%;
+}
+.form-space{
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 50px;
+  opacity: 0.8;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+  /* flex-direction: column; */
+}
+.form h2{
+  margin-bottom: 10px;
+}
+.form label{
+  margin-bottom: 10px;
+}
+ .btn{
+  background-color: #BC8F8F;
+  text-align: center;
+  /* width: 10%; */
+  border: 2px solid #333333;
+  /* margin-left: 5px; */
+  /* margin-bottom: 20px; */
+  padding:15px 10px ;
+  border-radius: 20px;
+  font-size: 24px;
+  opacity: 1.0;
+}
+
+.btn a{
+  border: 2px solid red;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 10px;
+  
+}

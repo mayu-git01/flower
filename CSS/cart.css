@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  font-family: serif;
+  border: none;
+  color: #333333;
+}
+.warapper{
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  /* padding-left: 100px; */
+}
+#logo{
+  /* border: 2px solid red; */
+  /* float: left; */
+  width: 50%;
+  padding-left: 50px;
+  color: #BC8F8F;
+  font-style: italic;
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo:hover{
+  text-shadow: 2px 2px 2px #ffe4e1;
+}
+h2{
+  /* border: 2px solid blue; */
+  /* padding-left: 150px; */
+  margin-left: 150px;
+  font-size: 36px;
+}
+h2:hover{
+  /* border: 2px solid blue; */
+  width: 175px;
+  border-bottom: 2px dotted #333333;
+  margin-left: 150px;
+}
+.merch{
+  /* border: 2px solid blue; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffe4e1;
+  background-position: center;
+  border-radius: 10px;
+  width: 80%;
+  padding: 40px 20px;
+}
+.merch p{
+  font-size: 20px;
+  text-align: center;
+}
+.buttom{
+  /* border: 2px solid blue; */
+  width: 25%;
+  text-align: center;
+  background-color: #BC8F8F;
+  /* background-position: center; */
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttom a{
+  /* border: 2px solid red; */
+  text-decoration: none;
+  font-size: 26px;
+}
+.buttom:hover{
+  font-weight: bold;
+  box-shadow: 3px 3px 3px #333333;
+}
